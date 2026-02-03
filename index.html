@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAVELTOUR - Ваше идеальное путешествие</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="#" class="logo">
+          <span class="logo-icon"><i class="fas fa-plane"></i></span>
+          TRAVEL<span class="logo-accent">TOUR</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#destinations">Направления</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#testimonials">Отзывы</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-slider">
+        <div
+          class="slide active"
+          style="
+            background-image: url(&quot;https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=1920&quot;);
+          "
+        ></div>
+        <div
+          class="slide"
+          style="
+            background-image: url(&quot;https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1920&quot;);
+          "
+        ></div>
+        <div
+          class="slide"
+          style="
+            background-image: url(&quot;https://images.pexels.com/photos/1450340/pexels-photo-1450340.jpeg?auto=compress&cs=tinysrgb&w=1920&quot;);
+          "
+        ></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="title-line">Откройте мир</span>
+          <span class="title-line accent">вместе с нами</span>
+        </h1>
+        <p class="hero-subtitle">Создаём незабываемые путешествия с 2010 года. Доверьте нам свой отдых!</p>
+        <div class="hero-buttons">
+          <a href="#destinations" class="btn btn-primary">Выбрать тур</a>
+          <a href="#contact" class="btn btn-outline">Связаться с нами</a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="15">0</span>
+          <span class="stat-label">Лет опыта</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Стран мира</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="10000">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Довольных клиентов</span>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-images">
+            <div class="about-img main-img">
+              <img
+                src="https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Путешествие"
+              />
+            </div>
+            <div class="about-img secondary-img">
+              <img src="https://images.pexels.com/photos/2507007/pexels-photo-2507007.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Отдых" />
+            </div>
+            <div class="experience-badge">
+              <span class="badge-number">15</span>
+              <span class="badge-text">лет опыта</span>
+            </div>
+          </div>
+          <div class="about-content">
+            <span class="section-tag">О компании</span>
+            <h2 class="section-title">Мы делаем путешествия <span class="highlight">незабываемыми</span></h2>
+            <p class="about-text">
+              TRAVELTOUR — это команда профессионалов, влюблённых в путешествия. Мы не просто продаём туры — мы создаём эмоции и
+              воспоминания, которые остаются с вами навсегда.
+            </p>
+            <p class="about-text">
+              Наш подход основан на индивидуальном внимании к каждому клиенту. Мы учитываем все ваши пожелания и подбираем идеальный вариант
+              отдыха именно для вас.
+            </p>
+            <div class="about-features">
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="feature-text">
+                  <h4>Надёжность</h4>
+                  <p>Работаем только с проверенными партнёрами</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <div class="feature-text">
+                  <h4>Забота</h4>
+                  <p>Поддержка 24/7 на протяжении всего путешествия</p>
+                </div>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary">Узнать больше</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="destinations" id="destinations">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Популярные направления</span>
+          <h2 class="section-title">Куда отправимся <span class="highlight">сегодня?</span></h2>
+          <p class="section-subtitle">Откройте для себя самые захватывающие места планеты</p>
+        </div>
+        <div class="destinations-grid">
+          <div class="destination-card large">
+            <img src="https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Мальдивы" />
+            <div class="card-overlay">
+              <div class="card-content">
+                <span class="card-tag">Хит продаж</span>
+                <h3>Мальдивы</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Индийский океан</p>
+                <div class="card-price">от <span>85 000 ₽</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="destination-card">
+            <img src="https://images.pexels.com/photos/1850619/pexels-photo-1850619.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Турция" />
+            <div class="card-overlay">
+              <div class="card-content">
+                <h3>Турция</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Анталья</p>
+                <div class="card-price">от <span>45 000 ₽</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="destination-card">
+            <img src="https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=600" alt="ОАЭ" />
+            <div class="card-overlay">
+              <div class="card-content">
+                <h3>ОАЭ</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Дубай</p>
+                <div class="card-price">от <span>65 000 ₽</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="destination-card">
+            <img src="https://images.pexels.com/photos/2070033/pexels-photo-2070033.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Таиланд" />
+            <div class="card-overlay">
+              <div class="card-content">
+                <h3>Таиланд</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Пхукет</p>
+                <div class="card-price">от <span>55 000 ₽</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="destination-card">
+            <img src="https://images.pexels.com/photos/2245436/pexels-photo-2245436.png?auto=compress&cs=tinysrgb&w=600" alt="Египет" />
+            <div class="card-overlay">
+              <div class="card-content">
+                <h3>Египет</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Шарм-эль-Шейх</p>
+                <div class="card-price">от <span>40 000 ₽</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="destination-card">
+            <img src="https://images.pexels.com/photos/2583852/pexels-photo-2583852.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Бали" />
+            <div class="card-overlay">
+              <div class="card-content">
+                <span class="card-tag">Новинка</span>
+                <h3>Индонезия</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Бали</p>
+                <div class="card-price">от <span>75 000 ₽</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="destinations-cta">
+          <a href="#contact" class="btn btn-primary btn-large">Смотреть все направления</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Наши услуги</span>
+          <h2 class="section-title">Полный спектр <span class="highlight">туристических услуг</span></h2>
+          <p class="section-subtitle">Мы позаботимся о каждой детали вашего путешествия</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-plane-departure"></i>
+            </div>
+            <h3>Авиабилеты</h3>
+            <p>Подберём оптимальные рейсы по лучшим ценам. Работаем со всеми авиакомпаниями мира.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-hotel"></i>
+            </div>
+            <h3>Бронирование отелей</h3>
+            <p>От уютных бутик-отелей до роскошных 5-звёздочных резортов — найдём идеальное место для вас.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-umbrella-beach"></i>
+            </div>
+            <h3>Пакетные туры</h3>
+            <p>Готовые туры «всё включено» с перелётом, проживанием, трансфером и страховкой.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-passport"></i>
+            </div>
+            <h3>Визовая поддержка</h3>
+            <p>Поможем с оформлением виз в любую страну мира. Консультации и полное сопровождение.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-ship"></i>
+            </div>
+            <h3>Круизы</h3>
+            <p>Морские и речные круизы по всему миру. Незабываемые путешествия на лучших лайнерах.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-route"></i>
+            </div>
+            <h3>Индивидуальные туры</h3>
+            <p>Создадим уникальный маршрут специально для вас с учётом всех пожеланий.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Отзывы</span>
+          <h2 class="section-title">Что говорят наши <span class="highlight">клиенты</span></h2>
+        </div>
+        <div class="testimonials-slider">
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Потрясающий отдых на Мальдивах! TRAVELTOUR организовали всё идеально — от трансфера до романтического ужина на берегу.
+              Обязательно вернёмся к вам за новым путешествием!"
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Анна" />
+              <div class="author-info">
+                <h4>Анна Михайлова</h4>
+                <span>Мальдивы, март 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Уже третий год подряд отдыхаем только с TRAVELTOUR. Всегда отличный сервис, внимание к деталям и адекватные цены. Рекомендую
+              всем друзьям!"
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Дмитрий" />
+              <div class="author-info">
+                <h4>Дмитрий Соколов</h4>
+                <span>Турция, август 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "Семейный отдых в Египте прошёл на высшем уровне! Детям очень понравилось, а мы смогли по-настоящему расслабиться. Спасибо за
+              заботу!"
+            </p>
+            <div class="testimonial-author">
+              <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Елена" />
+              <div class="author-info">
+                <h4>Елена Петрова</h4>
+                <span>Египет, январь 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div
+        class="cta-bg"
+        style="
+          background-image: url(&quot;https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&cs=tinysrgb&w=1920&quot;);
+        "
+      ></div>
+      <div class="cta-overlay"></div>
+      <div class="container">
+        <div class="cta-content">
+          <h2>Готовы к приключениям?</h2>
+          <p>Оставьте заявку и получите персональное предложение в течение 30 минут</p>
+          <a href="#contact" class="btn btn-white btn-large">Получить предложение</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <span class="section-tag">Контакты</span>
+            <h2 class="section-title">Свяжитесь <span class="highlight">с нами</span></h2>
+            <p class="contact-text">
+              Мы всегда рады помочь вам спланировать идеальное путешествие. Свяжитесь с нами любым удобным способом!
+            </p>
+
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Адрес</h4>
+                  <p>г. Москва, ул. Тверская, д. 15, офис 302</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Телефон</h4>
+                  <p>+7 (495) 123-45-67</p>
+                  <p>+7 (800) 100-20-30 (бесплатно)</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>info@TRAVELtour.ru</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Режим работы</h4>
+                  <p>Пн-Пт: 9:00 - 20:00</p>
+                  <p>Сб-Вс: 10:00 - 18:00</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contactForm">
+              <h3>Оставить заявку</h3>
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Ваше имя" required />
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="form-group">
+                <input type="tel" id="phone" placeholder="Телефон" required />
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Email" />
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="form-group">
+                <select id="destination">
+                  <option value="">Выберите направление</option>
+                  <option value="maldives">Мальдивы</option>
+                  <option value="turkey">Турция</option>
+                  <option value="uae">ОАЭ</option>
+                  <option value="thailand">Таиланд</option>
+                  <option value="egypt">Египет</option>
+                  <option value="bali">Бали</option>
+                  <option value="other">Другое</option>
+                </select>
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="form-group">
+                <textarea id="message" placeholder="Ваши пожелания" rows="4"></textarea>
+                <i class="fas fa-comment"></i>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+              <p class="form-notice">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <span class="logo-icon"><i class="fas fa-plane"></i></span>
+              TRAVELTOUR<span class="logo-accent">TOUR</span>
+            </a>
+            <p>Создаём незабываемые путешествия с 2010 года. Доверьте нам свой отдых!</p>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-telegram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-vk"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Навигация</h4>
+            <ul>
+              <li><a href="#home">Главная</a></li>
+              <li><a href="#about">О нас</a></li>
+              <li><a href="#destinations">Направления</a></li>
+              <li><a href="#services">Услуги</a></li>
+              <li><a href="#contact">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Направления</h4>
+            <ul>
+              <li><a href="#">Мальдивы</a></li>
+              <li><a href="#">Турция</a></li>
+              <li><a href="#">ОАЭ</a></li>
+              <li><a href="#">Таиланд</a></li>
+              <li><a href="#">Египет</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Информация</h4>
+            <ul>
+              <li><a href="#">Политика конфиденциальности</a></li>
+              <li><a href="#">Договор оферты</a></li>
+              <li><a href="#">Способы оплаты</a></li>
+              <li><a href="#">Вопросы и ответы</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 TRAVELTOUR. Все права защищены.</p>
+          <p>Реестровый номер туроператора: РТО 123456</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
